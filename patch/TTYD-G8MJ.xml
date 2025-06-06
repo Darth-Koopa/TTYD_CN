@@ -1,0 +1,20 @@
+<wiidisc version="1" root="/patch">
+	<id game="G8M">
+		<region type="J"/>
+	</id>
+	<options>
+		<section name="TTYD CNzh">
+			<option name="Style">
+				<choice name="NS">
+					<patch id="CNzh" />
+				</choice>
+			</option>		
+		</section>
+	</options>
+	<patch id="CNzh">
+		<folder external="/patch/sys" recursive="true"/>
+		<folder external="/patch/sys" disc="/"/>
+		<folder external="/patch/files" recursive="true"/>
+		<folder external="/patch/files" disc="/"/>
+	</patch>
+</wiidisc>
